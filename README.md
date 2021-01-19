@@ -1,6 +1,5 @@
 # rust_atcoder_template
-Rust環境のAtcoder用template.
-生成したprojectをvscodeで開けばF5でdebug可能です.
+vscode用の簡易なrust_template.
 
 ### Usage
 ```cargo generate --git https://github.com/kashee337/rust_atcoder_template.git```

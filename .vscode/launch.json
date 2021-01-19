@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug current example",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/target/debug/${fileBasenameNoExtension}",
+            "sourceLanguages": [
+                "rust"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build current example",
+        }
+    ]
+}

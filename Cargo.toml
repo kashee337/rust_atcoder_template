@@ -25,6 +25,10 @@ path = "src/d.rs"
 name = "e"
 path = "src/e.rs"
 
+[[bin]]
+name = "f"
+path = "src/f.rs"
+
 [dependencies]
 
 # 数値型の抽象化、多倍長整数、複素数、分数、及び整数型の拡張

@@ -1,17 +1,5 @@
 {
 	"tasks": [
-		// {
-		// 	"type": "cargo",
-		// 	"label": "Build current example",
-		// 	"group": "Build current example",
-		// 	"command": "build",
-		// 	"args": [
-		// 		"--example=${fileBasenameNoExtension}"
-		// 	],
-		// 	"options": {
-		// 		"cwd": "${workspaceFolder}"
-		// 	}
-		// },
 		{
 			"type": "cargo",
 			"subcommand": "build",
